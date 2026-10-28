@@ -1,0 +1,12 @@
+{
+  "name": "s2-market",
+  "private": true,
+  "description": "Lista do mercado do mês, compartilhada e salva no Google Planilhas.",
+  "type": "module",
+  "scripts": {
+    "test": "node tests/dupla.test.mjs && node tests/offline-migracao.test.mjs && node tests/correcoes.test.mjs && node tests/estresse.test.mjs"
+  },
+  "devDependencies": {
+    "jsdom": "24.1.3"
+  }
+}
